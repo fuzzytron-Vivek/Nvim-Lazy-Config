@@ -1,9 +1,9 @@
 # Install Process and Initial Debugging.
---
+---
 ### Installing using the Kickstart 
---
-Change cwd to my `~/.config` folder and clone the neovim repo inside of the `~/.config` directory.
+---
 
+Change cwd to my `~/.config` folder and clone the neovim repo inside of the `~/.config` directory.
 
 recommended step(if you're interested in working on your custom config some day) fork a clone of the source tree onto your personal account.
 (my branch : lazy).
@@ -13,8 +13,11 @@ I followed the instructions mentioned on https://github.com/nvim-lua/kickstart.n
 
 LINK: https://github.com/nvim-lua/kickstart.nvim 
 )
+
 ### Missing LazyVim starter script
---
+
+---
+
 PROBLEM : my lazyvim config was not installed properly.
 
 SOLUTION:
@@ -28,7 +31,7 @@ let lazyvim install the required plugins and faced errors in installing the tree
 
 
 ### Tree-sitter Version Conflict 
---
+---
 
 PROBLEM: had a version mismatch and had to re-install the latest version of tree-sitter
 
@@ -39,7 +42,8 @@ SOLUTION:
 
 
 ### npm Root Access Problem
---
+---
+
 PROBLEM: EACCES Error
 
 ![TERMINAL MOCK-UP](docs/assets/EACCESErrNPM.png)
