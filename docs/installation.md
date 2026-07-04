@@ -42,7 +42,7 @@ SOLUTION:
 --
 PROBLEM: EACCES Error
 
-![TERMINAL MOCK-UP](~/.config/nvim/docs/assets/EACCESErrNPM.png)
+![TERMINAL MOCK-UP](docs/assets/EACCESErrNPM.png)
 
 SOLUTION:
 By default, npm install -g (global install) tries to put files into a system directory (/usr/lib/node_modules/...) that's owned by root,
