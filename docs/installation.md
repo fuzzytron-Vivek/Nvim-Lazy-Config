@@ -18,7 +18,7 @@ LINK: https://github.com/nvim-lua/kickstart.nvim
 
 ---
 
-PROBLEM : my lazyvim config was not installed properly.
+PROBLEM : lazyvim starter script was missing.
 
 SOLUTION:
 - Opened : https://www.lazyvim.org/installation 
